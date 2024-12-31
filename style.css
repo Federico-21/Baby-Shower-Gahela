@@ -2,7 +2,7 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-image: url('ositas.png'); /* Imagen de fondo */
+    background-image: url('images/ositas.png'); /* Imagen de fondo */
     background-size: cover;
     background-position: center;
     color: white;
