@@ -1,0 +1,73 @@
+/* Fondo de la página */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('background-image.jpg'); /* Imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 50px;
+}
+
+/* Estilos del contenedor */
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco translúcido */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+}
+
+/* Estilos del texto */
+h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-family: 'Comic Sans MS', sans-serif;
+    color: #ff69b4; /* Rosa */
+}
+h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-family: 'Comic Sans MS', sans-serif;
+    color: #ff69b4; /* Rosa */
+}
+h3 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-family: 'Comic Sans MS', sans-serif;
+    color: #ff69b4; /* Rosa */
+}
+p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Estilos del temporizador */
+#countdown {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px 0;
+    font-family: 'Comic Sans MS', sans-serif;
+    color: #ff4500; /* Naranja */
+}
+
+/* Decoraciones (dibujos) */
+.decorations {
+    margin-top: 30px;
+}
+
+.decoration {
+    width: 100px;
+    margin: 10px;
+}
+
+/* Animación para los dibujos */
+@keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+}
+
+.decorations img {
+    animation: float 2s ease-in-out infinite;
+}
