@@ -6,6 +6,7 @@ body {
     background-size: cover;
     background-position: center;
     color: white;
+    margin: 0;
     padding: 50px;
 }
 
@@ -16,6 +17,9 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
     display: inline-block;
+    margin: 20px;
+    width: 100%;
+    max-width: 800px; /* Limitar el tamaño máximo del contenedor */
 }
 
 /* Estilos del texto */
@@ -25,20 +29,23 @@ h1 {
     font-family: 'Comic Sans MS', sans-serif;
     color: #ff69b4; /* Rosa */
 }
+
 h2 {
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 10px;
     font-family: 'Comic Sans MS', sans-serif;
     color: #ff69b4; /* Rosa */
 }
+
 h3 {
-    font-size: 40px;
+    font-size: 24px;
     margin-bottom: 10px;
     font-family: 'Comic Sans MS', sans-serif;
     color: #ff69b4; /* Rosa */
 }
+
 p {
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 20px;
 }
 
@@ -70,4 +77,70 @@ p {
 
 .decorations img {
     animation: float 2s ease-in-out infinite;
+}
+
+/* Estilos responsivos para pantallas más pequeñas */
+
+/* Para tabletas y pantallas medianas (máximo 768px) */
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    #countdown {
+        font-size: 24px;
+    }
+
+    .decoration {
+        width: 80px;
+    }
+}
+
+/* Para teléfonos pequeños (máximo 480px) */
+@media only screen and (max-width: 480px) {
+    .container {
+        width: 95%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    #countdown {
+        font-size: 20px;
+    }
+
+    .decoration {
+        width: 60px;
+    }
 }
