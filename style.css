@@ -2,7 +2,7 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-image: url('background-image.jpg'); /* Imagen de fondo */
+    background-image: url('ositas.png'); /* Imagen de fondo */
     background-size: cover;
     background-position: center;
     color: white;
@@ -47,6 +47,8 @@ h3 {
 p {
     font-size: 20px;
     margin-bottom: 20px;
+    font-family: 'Comic Sans MS', sans-serif;
+    color:rgb(122, 75, 104);
 }
 
 /* Estilos del temporizador */
