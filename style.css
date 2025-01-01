@@ -2,7 +2,7 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-image: url('images/ositas.png'); /* Imagen de fondo */
+    background-image: url('ositas.png'); /* Imagen de fondo */
     background-size: cover;
     background-position: center;
     color: white;
@@ -70,6 +70,11 @@ p {
     margin: 10px;
 }
 
+.ubicacion {
+    width: 100px;
+    margin: 10px;
+}
+
 /* Animación para los dibujos */
 @keyframes float {
     0% { transform: translateY(0); }
@@ -113,6 +118,10 @@ p {
     .decoration {
         width: 80px;
     }
+
+    .ubicacion {
+        width: 80px;
+    }
 }
 
 /* Para teléfonos pequeños (máximo 480px) */
@@ -143,6 +152,10 @@ p {
     }
 
     .decoration {
+        width: 60px;
+    }
+
+    .ubicacion {
         width: 60px;
     }
 }
